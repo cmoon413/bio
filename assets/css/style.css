@@ -33,3 +33,16 @@ main {
     width: 960px;
     margin: 0 auto;
 }
+
+#nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#leftnav {
+    float: left;
+}
+
+#rightnav {
+    float: right;
+}
