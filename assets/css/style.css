@@ -46,3 +46,6 @@ main {
 #rightnav {
     float: right;
 }
+#rightnav li    {
+    display: inline;
+}
