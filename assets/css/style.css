@@ -56,3 +56,7 @@ main {
 #rightnav li    {
       display: inline;
 }
+#personal-photo {
+    float: left;
+    margin: 10px;
+}
