@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -32,6 +31,11 @@ footer {
     margin-top: 20px;
     padding: 10px;
     text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
 }
 
 main {
@@ -53,10 +57,18 @@ main {
 #rightnav {
     float: right;
 }
-#rightnav li    {
-      display: inline;
+
+#rightnav li {
+    display: inline;
 }
+
 #personal-photo {
     float: left;
     margin: 10px;
+}
+
+#copyright {
+    font-size: small;
+    color: #b7b3b3;
+    padding-top: 10px;
 }
