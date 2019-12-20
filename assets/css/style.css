@@ -10,6 +10,7 @@ body {
     background-image: url(../images/retina_wood.png);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 h1,
@@ -87,4 +88,8 @@ main {
     content: "";
     display: block;
     clear: both;
+}
+
+.display-block {
+    display: block;
 }
