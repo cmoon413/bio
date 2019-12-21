@@ -28,9 +28,14 @@ p {
     color: #777777;
 }
 
+article {
+    margin: 20px;
+}
+
 header {
     border-color: #cccccc;
     background-color: #ffffff;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -46,7 +51,7 @@ main {
     margin: 0 auto;
 }
 
-.content {
+#content {
     flex: 0 0 auto;
 }
 
@@ -107,6 +112,12 @@ main {
 #name {
     color: white;
     font-size: 28px;
+    font-weight: bolder;
     background-color: #4aaaa5;
     padding: 20px;
+}
+
+.article-head {
+    font-size: 28px;
+    font-weight: bolder;
 }
