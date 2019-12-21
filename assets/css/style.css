@@ -11,6 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 150%;
 }
 
 h1,
@@ -30,8 +31,6 @@ p {
 header {
     border-color: #cccccc;
     background-color: #ffffff;
-    margin: 0px 0px 20px 0px;
-    padding: 20px;
 }
 
 footer {
@@ -63,10 +62,13 @@ main {
     background-color: #4aaaa5;
 }
 
-#rightnav {}
+#rightnav {
+    padding: 15px;
+}
 
 #rightnav li {
     display: inline;
+    margin: 10px 0px 10px 15px;
 }
 
 #personal-photo {
@@ -104,4 +106,6 @@ main {
 #name {
     color: white;
     font-size: 28px;
+    background-color: #4aaaa5;
+    padding: 20px;
 }
