@@ -79,6 +79,7 @@ main {
 #footer {
     text-align: center;
     flex-shrink: 0;
+    border-top: 8px solid #4aaaa5;
 }
 
 #copyright {
