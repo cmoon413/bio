@@ -48,21 +48,22 @@ main {
 }
 
 .content {
-    flex: 1 0 auto;
+    flex: 0 0 auto;
 }
 
 #nav {
     width: 960px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #leftnav {
-    float: left;
+    background-color: #4aaaa5;
 }
 
-#rightnav {
-    float: right;
-}
+#rightnav {}
 
 #rightnav li {
     display: inline;
@@ -92,4 +93,15 @@ main {
 
 .display-block {
     display: block;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#name {
+    color: white;
+    font-size: 28px;
 }
