@@ -78,7 +78,7 @@ main {
 
 #personal-photo {
     float: left;
-    margin: 10px;
+    margin: 15px;
 }
 
 #footer {
@@ -91,6 +91,11 @@ main {
     font-size: small;
     color: #b7b3b3;
     padding-top: 10px;
+}
+
+#bio p {
+    margin: 10px;
+    line-height: 180%;
 }
 
 .clearfix::after {
