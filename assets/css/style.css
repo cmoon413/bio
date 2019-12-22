@@ -147,3 +147,25 @@ main {
 .card img {
     width: 100%;
 }
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 10px;
+}
+
+#message {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#contact-name {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#email {
+    width: 100%;
+    margin-bottom: 10px;
+}
